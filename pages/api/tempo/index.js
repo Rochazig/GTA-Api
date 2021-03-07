@@ -1,5 +1,7 @@
 export default function handler(req, res)  {
-    const { slug } = req.query;
-
-    res.end(`Post: ${slug.join(", ")}`)
+    return (
+        <div class="">
+            <h1>Voce nao tem acesso a essa pagina.</h1>
+        </div>
+    )
 }
